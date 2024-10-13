@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/5f034d5c-5f69-4c0c-9259-c3c663b2603c)# Trans-CAUNet
+
 A new model based on the UNet framework is proposed, which embeds Swin transformer blocks and channel attention mechanism (CAM) parallel modules for glacier extraction.
 
 # 1 Environment 
@@ -14,7 +14,7 @@ We provide a small sample dataset， Contains sliced images and labels[Get proce
 
 # 3 preprocessing
 Preprocessing includes Python scripts for preprocessing remote sensing images, particularly croc_label.py for cropping labels, where 0 represents background, 1 represents glacier, and gdal_crop.py is used for cropping remote sensing images and unifying data dimensions. The sample images are cropped into 11 bands of 224 * 224 size, with data dimensions unified to 0-255.
-
+![image](https://github.com/user-attachments/assets/5f034d5c-5f69-4c0c-9259-c3c663b2603c)# Trans-CAUNet
 # 4 train/test/predict
 Train. py, evaluate. py, and predict_totif. py are used to train models, test model accuracy, and predict remote sensing images. The parameters have been set by default, and you can directly run them by modifying the input and output paths of the data.
 
