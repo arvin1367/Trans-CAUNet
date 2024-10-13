@@ -1,4 +1,4 @@
-#Environment configuration
+# Environment configuration
 To set up the environment, first install Anaconda and Visual Studio Code. 
 Then, open Anaconda Prompt and create a virtual environment by running conda create -n pytorch python=3.8, followed by activating it with conda activate pytorch.
  Install PyTorch by selecting the appropriate command for your CUDA version from PyTorch Previous Versions; for CUDA 11.3, use conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch. 
