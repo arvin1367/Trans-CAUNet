@@ -10,7 +10,7 @@ Common commands include checking the environment with activate pytorch, switchin
  and removing an environment with conda env remove --name your_environment_name or all packages in a virtual environment with conda remove -n your_env_name --all.
 
  # 2 Prepare data
-We provide a small sample dataset， Contains sliced images and labels[Get processed data in this link]（https://zenodo.org/records/13923320）.
+We provide a small sample dataset， Contains sliced images and labels[Get processed data in this link]（[https://zenodo.org/records/13923320](https://zenodo.org/records/13923320)）.
 
 # 3 preprocessing
 Preprocessing includes Python scripts for preprocessing remote sensing images, particularly croc_label.py for cropping labels and gdal_crop.py for cropping images and unifying data dimensions.
