@@ -1,6 +1,6 @@
 
-A new model based on the UNet framework is proposed, which em![模型图](https://github.com/user-attachments/assets/c35ca8ee-c54c-4ab9-9bee-48aacf881bb0)
-beds Swin transformer blocks and channel attention mechanism (CAM) parallel modules for glacier extraction.
+![模型图](https://github.com/user-attachments/assets/c35ca8ee-c54c-4ab9-9bee-48aacf881bb0)
+A new model based on the UNet framework is proposed, which embeds Swin transformer blocks and channel attention mechanism (CAM) parallel modules for glacier extraction.
 
 # 1 Environment 
 To set up the environment, first install Anaconda. 
