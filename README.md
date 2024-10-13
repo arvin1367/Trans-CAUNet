@@ -20,3 +20,5 @@ Train. py, evaluate. py, and predict_totif. py are used to train models, test mo
 
 # 5 mosaic
 The predicted image is 224 * 224 in size, and it needs to be stitched together to restore the original image size. Run gdal_combine.py to stitch the images together to obtain the complete predicted image.
+![Uploading image.png…]()
+
